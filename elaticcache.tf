@@ -2,7 +2,7 @@
 resource "aws_elasticache_subnet_group" "elasticache_subnet_group" {
 
   name       = "elatstic"
-  subnet_ids = [aws_subnet.privatesubnet1.id,aws_subnet.privatesubnet2.id]
+  subnet_ids = [module.network.private1_id,module.network.private2_id]
 }
 
 resource "aws_elasticache_cluster" "myredis" {
