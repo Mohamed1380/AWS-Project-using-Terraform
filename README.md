@@ -8,7 +8,7 @@
 - Creating security group allow ssh port 22 and port 3000 and attach it to EC2 instance
 - Creating internet Gateway and Nat Gateway
 - Using Secret Manager service to save private key for EC2 instance to connect to the instance
-- Create two worksaces dev and prod
+- Create two workspaces dev and prod
 - Create two variable definition files
 - Create Lambda Function to send email
 - Create trigger to detect changes in state file
